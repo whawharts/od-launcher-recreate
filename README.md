@@ -1,6 +1,6 @@
 # Aion America launcher recreation
 
-This recreation currently uses a compact `420 × 283` pixel launcher canvas while translating the supplied dark-fantasy reference into functional HTML and CSS. The original implementation targeted `490 × 330` pixels. Full-resolution PNG masters are retained beside optimized JPEG derivatives used by the launcher.
+This recreation keeps the original launcher canvas at exactly `490 × 330` pixels while translating the supplied dark-fantasy reference into functional HTML and CSS. Full-resolution PNG masters are retained beside optimized JPEG derivatives used by the launcher.
 
 The v4 campaign revision gives Season One, Battle Pass, and Prestige Pack entirely new female-led compositions: a storm-to-sunrise victory arena, an overhead spiral reward vault, and a black-crystal couture masquerade. Marketplace remains on its approved v3 female Shugo artwork, while Online Credits and Streamer Program remain on their approved v2 art.
 
