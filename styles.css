@@ -14,8 +14,8 @@
 
 html,
 body {
-  width: 490px;
-  height: 330px;
+  width: 420px;
+  height: 283px;
   margin: 0;
   overflow: hidden;
   background: #02060b;
@@ -33,8 +33,8 @@ button {
 
 .launcher {
   position: relative;
-  width: 490px;
-  height: 330px;
+  width: 420px;
+  height: 283px;
   padding: 9px 10px 0;
   isolation: isolate;
   overflow: hidden;
@@ -479,7 +479,7 @@ button {
 
 .launcher--single {
   display: grid;
-  grid-template-rows: 276px 54px;
+  grid-template-rows: 237px 46px;
   padding: 0;
   place-items: stretch;
   background: #02040c;
@@ -501,9 +501,9 @@ button {
 .banner-actions {
   display: grid;
   grid-template-columns: 1.25fr 1fr 1fr;
-  gap: 8px;
+  gap: 7px;
   align-items: center;
-  padding: 7px 14px;
+  padding: 5px 12px;
   border-top: 1px solid rgba(212, 188, 130, 0.45);
   background:
     radial-gradient(circle at 18% 0, rgba(98, 48, 139, 0.2), transparent 42%),
@@ -514,7 +514,7 @@ button {
 .banner-button {
   position: relative;
   display: flex;
-  height: 38px;
+  height: 36px;
   align-items: center;
   justify-content: center;
   overflow: hidden;
