@@ -478,10 +478,7 @@ button {
 }
 
 .launcher--single {
-  display: grid;
-  grid-template-rows: 276px 54px;
   padding: 0;
-  place-items: stretch;
   background: #02040c;
 }
 
