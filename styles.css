@@ -24,12 +24,18 @@ body {
 }
 
 .social-links {
+  position: relative;
   display: flex;
   flex: 1;
   align-items: center;
   justify-content: center;
   gap: 8px;
   min-height: 0;
+  background-color: #02040c;
+  background-image: url("assets/social-banner-random-flares.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .social-link {
@@ -49,12 +55,11 @@ body {
   object-fit: contain;
 }
 
-.social-link:hover,
 .social-link:focus {
-  background: rgba(255, 255, 255, 0.1);
+  outline: none;
 }
 
-.social-link:focus {
-  outline: 2px solid #d9b56e;
+.social-link:focus-visible {
+  outline: 1px solid rgba(255, 255, 255, 0.65);
   outline-offset: 1px;
 }
