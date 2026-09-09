@@ -8,6 +8,8 @@ body {
 }
 
 .launcher {
+  display: flex;
+  flex-direction: column;
   width: 490px;
   height: 330px;
   overflow: hidden;
@@ -16,6 +18,43 @@ body {
 
 .single-banner {
   display: block;
+  flex: 0 0 auto;
   width: 100%;
   height: auto;
+}
+
+.social-links {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 0;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.social-link img {
+  display: block;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.social-link:focus {
+  outline: 2px solid #d9b56e;
+  outline-offset: 1px;
 }
